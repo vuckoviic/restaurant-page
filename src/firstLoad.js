@@ -10,6 +10,10 @@ export function firstLoad() {
     img.src = restaurantImage;
     p.innerText = "This is the first ever oldfashioned, old school restaurant in the center of New York.";
 
-    // APPEND THESE THINGS TO CONTENT DIV
+    const content = document.getElementById("content");
+
+    content.appendChild(h1);
+    content.appendChild(img);
+    content.appendChild(p);
 
 }
