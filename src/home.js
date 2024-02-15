@@ -15,5 +15,4 @@ export function homeLoad() {
     content.appendChild(h1);
     content.appendChild(img);
     content.appendChild(p);
-
 }
