@@ -1,0 +1,63 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: peachpuff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: peachpuff;
+    padding: 15px;
+}
+
+nav {
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 50px;
+    width: 120px;
+    background: none;
+    border-radius: 25px;
+    border: none;
+    border: 1px solid grey;
+    font-size: 1.5em;
+    color: peachpuff;
+}
+
+.button1 {
+    background-color: green;
+}
+.button2 {
+    background-color: white;
+    color: rgb(248, 175, 112);
+}
+.button3 {
+    background-color: red;
+}
+
+img {
+    width: 20vw;
+}
+
+#content {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 203, 166);
+    align-items: center;
+    gap: 50px;
+    padding: 15px;
+}
+
+.active {
+    font-style: italic;
+}
