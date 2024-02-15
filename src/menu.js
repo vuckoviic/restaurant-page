@@ -1,15 +1,26 @@
+import pizza from "./pizza.jpg";
+import spagetti from "./spagetti.jpg";
+
 export function menuLoad() {
     const h1 = document.createElement("h1");
-    const img = document.createElement("img");
-    const p = document.createElement("p");
+
+    const imgPizza = document.createElement("img");
+    const pPizza = document.createElement("p");
+    const imgSpagetti = document.createElement("img");
+    const pSpagetti = document.createElement("p");
+    
+    imgPizza.src = pizza;
+    imgSpagetti.src = spagetti;
+    pPizza.innerText = "Best Pizza In USA (because it is from Italy)";
+    pSpagetti.innerText = "Generations were brought up on these";
 
     h1.innerText = "Explore Italian National Cuisine";
-    img.src = cook;
-    p.innerText = "This is the first ever oldfashioned, old school restaurant in the center of New York. It is honor be a chief at this beautiful place";
 
     const content = document.getElementById("content");
 
     content.appendChild(h1);
-    content.appendChild(img);
-    content.appendChild(p);
+    content.appendChild(imgPizza);
+    content.appendChild(pPizza);
+    content.appendChild(imgSpagetti);
+    content.appendChild(pSpagetti);
 }
