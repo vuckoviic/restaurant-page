@@ -1,5 +1,5 @@
-import { firstLoad } from "./firstLoad";
+import { homeLoad } from "./home.js";
 
 console.log("Everything works as expected");
 
-firstLoad();
+homeLoad();
